@@ -15,7 +15,7 @@ function SectionLeftImage({
     <img src={image_src} alt={image_alt}className="md:w-2/5"/>
     <div className="md:w-1/2">
     <h2 className="font-sans m-10 text-6xl text-green-500 font-bold mb-2">{title}</h2>
-    <p className="m-10 list-none list-inside text-pretty text-xl font-semibold md:w-full">
+    <p className="m-10  text-pretty text-xl font-semibold md:w-5/6">
       {description}
     </p>
     </div>
